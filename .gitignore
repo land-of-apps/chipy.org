@@ -70,6 +70,6 @@ htdocs/static/
 htdocs/media/
 chipy_org/mediafiles/
 venv/
-
+tmp
 .vscode
 htmlcov

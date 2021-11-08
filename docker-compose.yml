@@ -30,6 +30,7 @@ services:
       - CONNECT_METHOD=http
       - ALLOWED_HOSTS=localhost
       - USE_S3=False
+      - APPMAP
     stdin_open: true
     tty: true
 
