@@ -46,7 +46,7 @@ tag:
 	git tag -m $(date_tag) $(date_tag)
 
 test:
-	docker-compose exec web pytest -v chipy_org/
+	docker-compose exec -e APPMAP web pytest -v chipy_org/
 
 lint:
 	docker-compose exec web pylint -j 0 chipy_org/
